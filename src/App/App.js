@@ -22,7 +22,7 @@ const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
   return (
-    <Router basename="/tothepoint_login">
+    <Router basename={process.env.PUBLIC_URL}>
       
         <Headermain />
         <AppRoutes />
