@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+//{process.env.PUBLIC_URL}
 import "bootstrap/dist/css/bootstrap.min.css";
 import {
   BrowserRouter as Router,
@@ -21,7 +22,7 @@ const ScrollToTop = withRouter(_ScrollToTop);
 
 export default function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
+    <Router basename="/tothepoint_login">
       
         <Headermain />
         <AppRoutes />
