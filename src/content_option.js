@@ -8,6 +8,7 @@ import image7 from './assets/images/sophie.png';
 import image8 from './assets/images/kasa.png';
 import image9 from './assets/images/grimoire.png';
 import image10 from './assets/images/nina.png';
+import imagePortrait from './assets/images/kilyan-sockalingum.jpg'
 const logotext = "Dramé";
 
 
@@ -24,7 +25,7 @@ const introdata = {
         third: "Je suis développeur full stack",
     },
     description: " Je suis un développeur full stack, React et Node JS, je suis intéressé par tout ce qui touche les nouvelles technologies.",
-    //your_img_url: imagePortrait,
+    your_img_url: imagePortrait,
 };
 
 const dataabout = {
@@ -114,7 +115,7 @@ const dataportfolio = [{
         description: "Le site d'une agence de location immobilière Booki.",
         lien: "https://github.com/LMgit91/agence-booki.git",
         id: 1,
-        contexte: "Le projet du site Booki consistait à la création d'un site d'hébergement pour les vacances, j'ai codé ce site en CSS pure et Html. J'ai suivi le plan de la maquette pour intégrer l'interface du site Booki, j'ai crée une version ordinateur, tablette et mobile. Ce projet a été réalisé sans utilisation de framework, il m'a permis de voir la base de la programmation. Il m'a également permis d'apréhender la logique de design responsive, qui assure que notre site fonctionne bien sur tous les appareils et toutes les tailles d'écran."
+        contexte: "Le projet du site Booki consistait à la création d'un site d'hébergement pour les vacances, j'ai codé ce site en CSS pure et Html. J'ai suivi le plan de la maquette pour intégrer l'interface du site Booki, j'ai créé une version ordinateur, tablette et mobile. Ce projet a été réalisé sans utilisation de framework, il m'a permis de voir la base de la programmation. Il m'a également permis d'appréhender la logique de design responsive, qui assure que notre site fonctionne bien sur tous les appareils et toutes les tailles d'écran."
     },
     {
         img: image2,
@@ -138,7 +139,7 @@ const dataportfolio = [{
         description: "Un site pour publier et donner des notes aux livres.",
         lien: "https://github.com/LMgit91/Grimoire-livre.git",
         id: 4,
-        contexte: "Le projet consitait à créer le backend d'un site de notation de livre, la partie frontend m'était déja fourni. Je davais créer un seveur avec express et connecter ce serveur à une base de donnée MongoDB. J'ai mis en place la structure du serveur et j'ai géré la gestion de la communication entre la base de donnée et le serveur. La principale contrainte de ce projet est que le backend était nouveau pour moi. Donc bien que l'on utilisait toujours javascript, il m'a fallu un certain temps pour m'adapter à cette nouvelle manière de coder côté serveur. Ce projet a été enrichissant car il m'a permis de faire du CRUD(Create Read Update et Delete), ce sont des compétences importantes à connaitre. J'ai également dû mettre en place un système d'authentification sécurisé pour les utlisateurs. Pour ce faire, j'ai utiliser le package Bcrypt et Jsonwebtoken. Le premier va créer un hash des mot de passe et le second va gérer la création et l'envoie de token d'identification. J'ai également gérer les cas de téléchargement de fichiers, et d'optimisations des images. ",
+        contexte: "Le projet consitait à créer le backend d'un site de notation de livre, la partie frontend m'était déja fourni. Je davais créer un serveur avec express et connecter ce serveur à une base de donnée MongoDB. J'ai mis en place la structure du serveur et j'ai géré la gestion de la communication entre la base de donnée et le serveur. La principale contrainte de ce projet est que le backend était nouveau pour moi. Donc bien que l'on utilisait toujours javascript, il m'a fallu un certain temps pour m'adapter à cette nouvelle manière de coder côté serveur. Ce projet a été enrichissant car il m'a permis de faire du CRUD(Create Read Update et Delete), ce sont des compétences importantes à connaitre. J'ai également dû mettre en place un système d'authentification sécurisé pour les utlisateurs. Pour ce faire, j'ai utiliser le package Bcrypt et Jsonwebtoken. Le premier va créer un hash des mot de passe et le second va gérer la création et l'envoie de token d'identification. J'ai également gérer les cas de téléchargement de fichiers, et d'optimisations des images. ",
     },
     {
         img: image5,
