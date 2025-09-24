@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.ba49e4f9.css",
-    "main.js": "/Portfolio/static/js/main.d94ab302.js",
+    "main.js": "/Portfolio/static/js/main.b821da74.js",
     "static/media/sophie-bluel.png": "/Portfolio/static/media/sophie-bluel.115d313bea380c74a3b4.png",
     "static/media/ImageSource1.png": "/Portfolio/static/media/ImageSource1.7b295fcb71808167cd75.png",
     "static/media/kasa.png": "/Portfolio/static/media/kasa.006d8e31a7f7ffc6a24d.png",
@@ -11,14 +11,15 @@
     "static/media/sophie.png": "/Portfolio/static/media/sophie.90dc2526102cec048aec.png",
     "static/media/grimoire.png": "/Portfolio/static/media/grimoire.af7cf093671daeccf138.png",
     "static/media/Booki.png": "/Portfolio/static/media/Booki.0d707b982188014bc7cd.png",
+    "static/media/Doctor Invite Photo 1 (1).png": "/Portfolio/static/media/Doctor Invite Photo 1 (1).23c75a42fe9232613cc2.png",
     "static/media/kilyan-sockalingum.jpg": "/Portfolio/static/media/kilyan-sockalingum.a88fb7743ef5316cbef5.jpg",
     "static/media/emile-guillemot.jpg": "/Portfolio/static/media/emile-guillemot.ab72e9af18541a68501a.jpg",
     "index.html": "/Portfolio/index.html",
     "main.ba49e4f9.css.map": "/Portfolio/static/css/main.ba49e4f9.css.map",
-    "main.d94ab302.js.map": "/Portfolio/static/js/main.d94ab302.js.map"
+    "main.b821da74.js.map": "/Portfolio/static/js/main.b821da74.js.map"
   },
   "entrypoints": [
     "static/css/main.ba49e4f9.css",
-    "static/js/main.d94ab302.js"
+    "static/js/main.b821da74.js"
   ]
 }
