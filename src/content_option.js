@@ -8,7 +8,8 @@ import image7 from './assets/images/sophie.png';
 import image8 from './assets/images/kasa.png';
 import image9 from './assets/images/grimoire.png';
 import image10 from './assets/images/nina.png';
-import imagePortrait from './assets/images/kilyan-sockalingum.jpg'
+import imagePortrait from './assets/images/kilyan-sockalingum.jpg';
+import image11 from './assets/images/Doctor Invite Photo 1 (1).png';
 const logotext = "Dramé";
 
 
@@ -30,7 +31,7 @@ const introdata = {
 
 const dataabout = {
     title: "À propos",
-    aboutme: " Bonjour, je suis développeur web junior formé à Openclassroom et je vis actuellement à Paris. J'ai occupé différents postes dans différents métiers pendant des années ce qui m'a permis d'élargir mon champs de vision. Je viens d'être diplômé d'openclassroom, en tant que développeur web de plus plusieurs mois avant ma formation, je me suis formé en autodidacte aux technologies informatiques. Je suis de nature autonome, rigoureux et curieux, je souhaite renforcer mes nouvelles compétences acquises. C'est pourquoi, je souhaite intégrer un poste de développeur web full stack afin de pouvoir améliorer mes compétences techniques. ",
+    aboutme: "Bonjour, je suis développeur web junior formé à Openclassroom et je vis actuellement à Paris. J'ai récemment participé à un projet collaboratif avec Chingu où j'ai pratiqué les méthodologies Agile et le développement en équipe avec TypeScript et PostgreSQL. J'ai occupé différents postes dans différents métiers pendant des années ce qui m'a permis d'élargir mon champs de vision. Je viens d'être diplômé d'openclassroom, en tant que développeur web de plus plusieurs mois avant ma formation, je me suis formé en autodidacte aux technologies informatiques. Je suis de nature autonome, rigoureux et curieux, je souhaite renforcer mes nouvelles compétences acquises. C'est pourquoi, je souhaite intégrer un poste de développeur web full stack afin de pouvoir améliorer mes compétences techniques.",
 };
 const worktimeline = [{
         jobtitle: "Étudiant, Obtention du baccalauréat économique et social",
@@ -53,7 +54,7 @@ const worktimeline = [{
         date: "2015",
     },
     {
-        jobtitle: "Agent de sécurité",
+        jobtitle: "hôte d'accueil",
         where: "Paris",
         date: "2016-2022",
     },
@@ -69,7 +70,16 @@ const worktimeline = [{
     }
 ];
 
-const skills = [{
+const skills = [
+    {
+        name: "TypeScript",
+        value: 75,
+    },
+    {
+        name: "PostgreSQL",
+        value: 70,
+    },
+    {
         name: "Node JS",
         value: 90,
     },
@@ -149,6 +159,14 @@ const dataportfolio = [{
         id: 5,
         contexte: "Ce projet consistait à créer un site web d'une application de location immobilière. Pour réaliser ce site j'ai utiliser uniquement le framework React JS. Ce projet m'a permis d'explorer les fonctionnalités de base de React et son fonctionnement. En effet React est une bibliothèque qui m'a permis de créer une interface utlisateur efficace. J'ai utlisé react router pour configurer la navigation entre les pages de notre application. Cette compétence est primordiale, dans les applications modernes il faudra gérer le routage de manière efficace. J'ai démarré mon projet en utlisant create react app, qui est outil util qui simplifie la tâche d'implémenter toutes les dépendances nécessaires à la création d'un projet React. J'ai également utilisé SASS pour gérer mon CSS qui est un élément qui améliore l'expérience utilisateur.",
     },
+    {
+        img: image11,
+        img2: image11,
+        description: "Une application médicale WeCare",
+        lien: "https://github.com/LMgit91/WeCare.git",
+        id: 6,
+        contexte: "Application full-stack développée en équipe de 3 via le programme Chingu, suivant une méthodologie Agile avec des daily standups. Ma contribution s'est concentrée sur le développement front-end avec TypeScript et l'intégration de la base PostgreSQL. Cette expérience m'a permis de renforcer mes compétences en travail d'équipe, gestion de version Git et développement d'applications robustes."
+    }, 
 ];
 
 const contactConfig = {
